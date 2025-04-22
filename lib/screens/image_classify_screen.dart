@@ -6,14 +6,14 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:wtfridge/widgets/constants.dart';
 import 'dart:convert';
 
-class ImageClassify extends StatefulWidget {
-  const ImageClassify({super.key});
+class ImageClassifyScreen extends StatefulWidget {
+  const ImageClassifyScreen({super.key});
 
   @override
-  State<ImageClassify> createState() => _ImageClassifyState();
+  State<ImageClassifyScreen> createState() => _ImageClassifyScreenState();
 }
 
-class _ImageClassifyState extends State<ImageClassify> {
+class _ImageClassifyScreenState extends State<ImageClassifyScreen> {
   String? result;
   final ImagePicker _imagePicker = ImagePicker();
   final String apiKey = Constants().apiKey;
