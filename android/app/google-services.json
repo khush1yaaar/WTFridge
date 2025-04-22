@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "900449210373",
+    "project_id": "wtfridge",
+    "storage_bucket": "wtfridge.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900449210373:android:a183d62ac8daa726adcc6c",
+        "android_client_info": {
+          "package_name": "com.example.wtfridge"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIVz84jQMVpQTDNR41qvP9Nk5RnfOouQU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
